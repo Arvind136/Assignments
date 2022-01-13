@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto+Slab:wght@900&family=Varela+Round&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: brown;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: 'Roboto Slab', serif
+}
+
+.subtitle {
+    margin-left: 20px;
+    font-family: 'Roboto Slab', serif
+}
+
+.container {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.container .left {
+    margin-left: 50px;
+    margin-right: 491px;
+}
+
+.container .right .shares {
+    margin-right: 20px;
+}
+
+.container .right {
+    display: flex;
+}
+
+.container .right p {
+    color: #2896e9;
+}
+
+hr {
+    width: 837px;
+    margin-left: 50px;
+}
+
+.graph1 {
+    /* width: 500px;
+    height: 100px; */
+    margin-left: 20px;
+    color: green;
+}
+
+.percentage ul {
+    display: flex;
+    padding: 20px;
+    margin-left: 200px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.percentage ul li {
+    list-style: none;
+    padding: 0px 55px;
+}
+
+.container1 {
+    display: flex;
+}
+
+.shareholder {
+    margin-left: 50px;
+    width: 132px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.shareholder ul li {
+    list-style: none;
+    margin: 28px 0px;
+}
+
+.vl {
+    margin-left: 30px;
+    border-left: 1px solid rgb(130, 136, 130);
+    height: 208px;
+}
+
+.index {
+    padding: 2px;
+}
+
+.rectangle1 {
+    width: 458px;
+    height: 12px;
+    margin: 36px 0px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(to right, #2896e9, #7467f0 100%);
+}
+
+.rectangle2 {
+    width: 311px;
+    height: 12px;
+    margin: 36px 0px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(to right, #2896e9, #7467f0 100%);
+}
+
+.rectangle3 {
+    width: 173px;
+    height: 12px;
+    margin: 36px 0px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(to right, #2896e9, #7467f0 100%);
+}
+
+.rectangle4 {
+    width: 289px;
+    height: 12px;
+    margin: 36px 0px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(to right, #2896e9, #7467f0 100%);
+}
